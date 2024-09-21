@@ -19,4 +19,4 @@ pool.map(get_reqeust, urls)
 # get_requests每次执行都会接收urls列表中的一个元素作为参数
 
 print('总耗时：', time.time() - start)
-pool.close()  # 释放线程池，
+pool.close()  # 释放线程池，1
